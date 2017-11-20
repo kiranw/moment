@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <title>moment</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="js/map.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700" rel="stylesheet">
 </head>
 <body>
 
-<iframe id="maplayout" frameborder="0" src="https://maps.googleapis.com/maps/api/streetview?location=-2.9450708,-60.6762371&key=AIzaSyAa9Y1ijWZ0zF_vuhvntbJDUgsjrlo4kf0" allowfullscreen></iframe>
+<div id="therapy">
+    <div id="indicator">start</div>
+    <div id="orb"></div>
+    <img id="background" src="img/forest/0000.jpg" />
+</div>
+
+
+<script src="js/orbControl.js"></script>
+<script src="js/frameControl.js"></script>
 
 </body>
 </html>

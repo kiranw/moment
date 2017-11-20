@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    font-size: 1.6em;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.circle{
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.todo-text{
+    float: left;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+.todo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    display: table;
+}
+
+.instructions {
+    font-style: italic;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.thumb1 {
+    background: url("../img/forest/0250.jpg") 20% 50% no-repeat; /* 50% 50% centers image in div */
+    background-size: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.thumb3 {
+    background: url("../img/city/0921.jpg") 20% 50% no-repeat; /* 50% 50% centers image in div */
+    background-size: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+
+.thumb2 {
+    background: url("../img/abstract.png") 20% 50% no-repeat; /* 50% 50% centers image in div */
+    background-size: 400px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.label{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.6em;
+    letter-spacing: 2px;
+}
+
+.environment{
+    width: 250px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#environment-container{
+    margin: 10% 13%;
+}
+
+#todo-container, #dashboard-container{
+    margin: 10% 13%;
+}

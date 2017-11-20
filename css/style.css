@@ -1,6 +1,89 @@
-#maplayout{
-    position: absolute;
+/*#maplayout{*/
+    /*position: absolute;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*border: none;*/
+/*}*/
+
+body {
+    /*margin: 0;*/
     height: 100%;
-    width: 100%;
-    border: none;
+    overflow-y: hidden;
+    /*font-family: "CMU Serif";*/
+    /*color: rgb(70,140,20);*/
+}
+
+#background {
+    height: 100vh;
+    width: auto;
+    min-width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+#indicator {
+    position: absolute;
+    font-size: 1.5em;
+    top: 5vh;
+    right: 5vw;
+    font-family: "CMU Serif";
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+#logo {
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+    width: 150px;
+    opacity: 0.8;
+}
+
+#arrow {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    width: 50px;
+    padding: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#arrow2 {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    width: 50px;
+    padding: 25px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+    /*fill: none;*/
+    /*stroke: #b6c1aa;*/
+    stroke-width: 1;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    /*fill: #e3d8c5;*/
+    /*stroke: #fff;*/
+}
+
+.axis, .x, .y, .domain {
+    color: white;
+    stroke: white;
+    stroke-width: 1px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.chart-label {
+    font-size: 0.6em;
+    margin-left: 50px;
+    margin-top: 40px;
 }

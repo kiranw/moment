@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>moment</title>
+            <link rel="stylesheet" href="css/todo.css">
+            <link rel="stylesheet" href="css/animate.css">
+            <link rel="stylesheet" href="css/style.css">
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/d3.min.js"></script>
+            <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+            <script src="js/orbControl.js"></script>
+            <script src="js/frameControl.js"></script>
+            <script src="js/todo.js"></script>
+            <script src="js/dashboard.js"></script>
+        </head>
+<body>
+
+<img id="logo" src="img/moment-logo-white.png">
+<a id="arrow-link" onclick="startSelection();"><img id="arrow" src="img/arrow.png"></a>
+
+<div id="todo-container">
+    <h1>What do you have to get done today?</h1>
+    <hr>
+    <div class="instructions">say "add" and then the task you want to add</div>
+    <div class="instructions">say "next" to begin your moment</div>
+    <div class="animated fadeInUp todo">
+        <div class="animated fadeIn circle"></div>
+        <div class="animated fadeInUp todo-text">e.g. Make Rhino Model</div>
+    </div>
+</div>
+
+<div id="environment-container" hidden>
+    <h1>Where should we go today?</h1>
+    <hr>
+    <div class="instructions animate fadeInUp">say the option you want</div>
+    <!--<div class="environment animate fadeInUp">-->
+        <!--<div class="thumb1 thumb"></div>-->
+        <!--<div class="label">Forest Walk</div>-->
+    <!--</div>-->
+    <!--<div class="environment animate fadeInUp">-->
+        <!--<div class="thumb3 thumb"></div>-->
+        <!--<div class="label">City</div>-->
+    <!--</div>-->
+    <!--<div class="environment animate fadeInUp">-->
+        <!--<div class="thumb2 thumb"></div>-->
+        <!--<div class="label">Abstract</div>-->
+    <!--</div>-->
+</div>
+
+<div id="therapy-container" hidden>
+    <a id="arrow-link2" onclick="startReview();"><img id="arrow2" src="img/arrow.png"></a>
+    <div id="indicator">start</div>
+    <div id="orb"></div>
+    <img id="background" src="img/texture.jpg" />
+</div>
+
+<div id="dashboard-container" hidden>
+    <h1>Let's review your session</h1>
+    <hr>
+    <div class="row">
+        <!--<div class="col-md-6">-->
+            <div class="chart-label">Breathing Pattern (inhale, exhale)</div>
+            <div id="inout"></div>
+            <div class="chart-label">Your Breathing vs. Target Program</div>
+            <div id="latencies"></div>
+            <div id="calendar"></div>
+        <!--</div>-->
+        <!--<div class="col-md-6">-->
+            <!--<div id="calendar"></div>-->
+        <!--</div>-->
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>
